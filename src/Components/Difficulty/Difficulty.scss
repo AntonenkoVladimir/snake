@@ -1,0 +1,33 @@
+.app-difficult {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: rgba(white, 0.2);
+  -webkit-user-select: none;
+
+  h1 {
+    margin: 0;
+    font-size: 60px;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 40px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 25px;
+  }
+}
